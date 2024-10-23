@@ -1,6 +1,41 @@
 function Header() {
     return (
-        <div>Header</div>
+        <>
+<div className="headerContainer">
+<div className="headerLogo">
+    <img src="" alt="" />
+</div>
+
+<div className="headerListContainer">
+<nav>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+        </>
     )
 }
 
