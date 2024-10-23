@@ -1,0 +1,26 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 75px;
+}
+
+.headerListContainer nav ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+.headerListContainer nav ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #1f153477;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.headerListContainer nav ul li:hover {
+    color: black;
+}
